@@ -1,0 +1,140 @@
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.head img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.head h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.pic {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+#email a{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#email a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#facebook a{
+    color: white;
+    background-color: #3b5998;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#facebook a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#twitch a{
+    color: white;
+    background-color: #6441A4;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#twitch a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#beinvolved a{
+    color: #AD9C65;
+    background-color: #450084;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#beinvolved a:hover {
+    background: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 380px) {
+    #email a {
+        font-size: 100%;
+    }
+    #facebook a {
+        font-size: 100%;
+    }
+    #twitch a {
+        font-size: 100%;
+    }
+    #beinvolved a {
+        font-size: 100%;
+    }
+}
+
+td {
+    background-color: #AD9C65;
+    border-bottom: 1px solid black;
+}
+
+
+
+table {
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+span {
+    color: #450084;
+}
+
+.merchItem {
+    background-color: #AD9C65;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    width: 40%;
+}
+
+.back{
+    background-color: #AD9C65;
+    margin:0;
+    padding: 10px 10px 10px 10px;
+}
