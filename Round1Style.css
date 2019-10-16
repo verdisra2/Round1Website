@@ -138,3 +138,9 @@ span {
     margin:0;
     padding: 10px 10px 10px 10px;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin:0 0 0 0;
+}
