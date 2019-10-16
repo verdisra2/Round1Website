@@ -30,6 +30,13 @@ window.addEventListener("load", function() {
             
             //display nav bar collapse button 
             navHead.style.display = "block";
+
+            //change pic sizes on index
+            var pics = document.querySelectorAll(".pic");
+            for(var i=0; i < pics.length; i++) {
+                pics[i].style.width = "100%";
+            }
+            
         } else {
             navBar = document.querySelectorAll("#navContent a");
     
@@ -42,6 +49,12 @@ window.addEventListener("load", function() {
             
             //hide nav bar collapse button 
             navHead.style.display = "none";
+
+            //change pic sizes on index
+            var pics = document.querySelectorAll(".pic");
+            for(var i=0; i < pics.length; i++) {
+                pics[i].style.width = "50%";
+            }
         }
     });
 
@@ -59,6 +72,12 @@ window.addEventListener("load", function() {
         
         //display nav bar collapse button 
         navHead.style.display = "block";
+
+        //change pic sizes on index
+        var pics = document.querySelectorAll(".pic");
+        for(var i=0; i < pics.length; i++) {
+            pics[i].style.width = "100%";
+        }
     }
 });
 
