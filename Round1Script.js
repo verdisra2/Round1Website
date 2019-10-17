@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
     navHead.style.display = "none";
     var navButton = document.createElement("a");
     navButton.setAttribute("href", "javascript:navClick();");
-    navButton.innerHTML = "Nav";
+    navButton.innerHTML = "<img src='navPic.png' alt='Nav' width='10%' height='10%'>";
     navButton.style.textAlign = "left";
     navHead.appendChild(navButton);
     document.querySelector("body").insertBefore(navHead, document.querySelector(".nav"));
